@@ -1,0 +1,6 @@
+<Project>
+ <PropertyGroup>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DevExpressVersion>19.1</DevExpressVersion>
+ </PropertyGroup>
+</Project>
