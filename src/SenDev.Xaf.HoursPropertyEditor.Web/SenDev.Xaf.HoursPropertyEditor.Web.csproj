@@ -135,6 +135,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonVersion.cs">
+      <Link>CommonVersion.cs</Link>
+    </Compile>
     <Compile Include="Editors\HoursPropertyEditor.cs" />
     <Compile Include="Editors\HoursSpinEdit.cs" />
     <Compile Include="HoursPropertyEditorWebModule.cs">
