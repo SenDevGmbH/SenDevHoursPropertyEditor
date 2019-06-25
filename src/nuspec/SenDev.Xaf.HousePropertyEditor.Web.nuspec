@@ -7,18 +7,14 @@
     <authors>Sergej Derjabkin</authors>
     <owners>Sergej Derjabkin</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>SenDev XAF Dashboards Web module</description>
+    <description>SenDev XAF HoursPropertyEditor Web module</description>
     <releaseNotes></releaseNotes>
     <tags>DevExpress XAF eXpressApplicationFramework</tags>
     <license type="expression">MIT</license>
-    <dependencies>
-      <dependency id="SenDev.Xaf.Dashboards$PackageNameSuffix$" version="[$version$]" />
-    </dependencies>
   </metadata>
 
   <files>
-    <file src="$SourceDir$SenDev.Xaf.Dashboards.Web.dll" target="lib\net46" />
-  	<file src="$SourceDir$SenDev.Xaf.Dashboards.Web.pdb" target="lib\net46" />
-	  <file src="$SourceDir$\..\..\Libraries\SenDev.Xaf.Dashboards.Web\**\*.cs" target="src\SenDev.Xaf.Dashboards.Web" />
+    <file src="$SourceDir$SenDev.Xaf.HoursPropertyEditor.Web.dll" target="lib\net46" />
+  	<file src="$SourceDir$SenDev.Xaf.HoursPropertyEditor.Web.pdb" target="lib\net46" />
   </files>
 </package>
