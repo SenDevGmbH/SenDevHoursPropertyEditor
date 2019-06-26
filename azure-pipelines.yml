@@ -34,11 +34,6 @@ steps:
     configuration: '$(buildConfiguration)'
     msbuildArguments: '/t:NuGet'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
 - task: NuGetCommand@2
   inputs:
     command: 'push' 
