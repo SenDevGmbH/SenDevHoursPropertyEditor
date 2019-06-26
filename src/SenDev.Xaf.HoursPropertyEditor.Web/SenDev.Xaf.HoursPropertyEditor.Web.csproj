@@ -7,8 +7,8 @@
     <ProjectGuid>{045E2D4F-4926-4A76-B476-E5162DE50F28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SenDev.Xaf.Web.HoursPropertyEditor</RootNamespace>
-    <AssemblyName>SenDev.Xaf.Web.HoursPropertyEditor</AssemblyName>
+    <RootNamespace>SenDev.Xaf.HoursPropertyEditor.Web</RootNamespace>
+    <AssemblyName>SenDev.Xaf.HoursPropertyEditor.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>

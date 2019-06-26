@@ -2,12 +2,12 @@
 using System;
 using System.Globalization;
 
-namespace SenDev.Xaf.Web.HoursPropertyEditor.Editors
+namespace SenDev.Xaf.HoursPropertyEditor.Web.Editors
 {
     public class HoursSpinEdit : ASPxButtonEdit
     {
 
-        public const string ScriptResourceName = "SenDev.Xaf.Web.HoursPropertyEditor.Editors.HoursSpinEdit.js";
+        public const string ScriptResourceName = "SenDev.Xaf.HoursPropertyEditor.Web.Editors.HoursSpinEdit.js";
 
         public HoursSpinEdit()
         {

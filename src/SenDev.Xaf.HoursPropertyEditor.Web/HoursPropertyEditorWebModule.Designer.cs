@@ -1,4 +1,4 @@
-﻿namespace SenDev.Xaf.Web.HoursPropertyEditor
+﻿namespace SenDev.Xaf.HoursPropertyEditor.Web
 {
     partial class HoursPropertyEditorAspNetModule {
         /// <summary> 

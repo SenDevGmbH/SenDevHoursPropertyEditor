@@ -1,5 +1,5 @@
 ﻿using DevExpress.Web;
-using SenDev.Xaf.Web.HoursPropertyEditor.Editors;
+using SenDev.Xaf.HoursPropertyEditor.Web.Editors;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;

@@ -1,4 +1,4 @@
-﻿using SenDev.Xaf.Web.HoursPropertyEditor.Editors;
+﻿using SenDev.Xaf.HoursPropertyEditor.Web.Editors;
 using System;
 using System.Collections.Generic;
 using System.IO;

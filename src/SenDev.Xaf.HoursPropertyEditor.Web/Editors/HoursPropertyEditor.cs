@@ -6,7 +6,7 @@ using DevExpress.ExpressApp.Web;
 using DevExpress.ExpressApp.Web.Editors.ASPx;
 using DevExpress.Persistent.Base;
 
-namespace SenDev.Xaf.Web.HoursPropertyEditor.Editors
+namespace SenDev.Xaf.HoursPropertyEditor.Web.Editors
 {
 	[PropertyEditor(typeof(double), "HoursEditor", false)]
     public class HoursPropertyEditor : ASPxPropertyEditor

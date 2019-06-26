@@ -28,7 +28,7 @@
             // 
             this.RequiredModuleTypes.Add(typeof(HoursPropertyEditor.Module.HoursPropertyEditorModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Web.SystemModule.SystemAspNetModule));
-            this.RequiredModuleTypes.Add(typeof(SenDev.Xaf.Web.HoursPropertyEditor.HoursPropertyEditorAspNetModule));
+            this.RequiredModuleTypes.Add(typeof(SenDev.Xaf.HoursPropertyEditor.Web.HoursPropertyEditorAspNetModule));
         }
 
         #endregion
