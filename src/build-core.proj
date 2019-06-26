@@ -4,7 +4,7 @@
     <DevExpressVersion>$(DevExpressFullVersion.Substring(0,4))</DevExpressVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectToBuild Include="Libraries\**\*.csproj;"/>
+    <ProjectToBuild Include="HoursPropertyEditor.sln"/>
     <NugetFile Include="nuspec\*.nuspec"/>
   </ItemGroup>
 
