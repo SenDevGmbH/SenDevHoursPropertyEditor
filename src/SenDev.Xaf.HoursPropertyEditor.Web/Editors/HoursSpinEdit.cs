@@ -12,7 +12,9 @@ namespace SenDev.Xaf.HoursPropertyEditor.Web.Editors
         public HoursSpinEdit()
         {
             ClientSideEvents.Validation = "function(s,e) { try {e.value = convertHours(e.value); } catch(error) {e.isValid = false; } }";
+#pragma warning disable CA1303 // Do not pass literals as localized parameters
             DisplayFormatString = "{0:N2}";
+#pragma warning restore CA1303 // Do not pass literals as localized parameters
         }
 
 

@@ -9,7 +9,10 @@ using DevExpress.Persistent.Base;
 namespace SenDev.Xaf.HoursPropertyEditor.Web.Editors
 {
 	[PropertyEditor(typeof(double), "HoursEditor", false)]
+#pragma warning disable CA1724
     public class HoursPropertyEditor : ASPxPropertyEditor
+#pragma warning restore CA1724
+
     {
         public HoursPropertyEditor(Type objectType, IModelMemberViewItem model) : base(objectType, model)
         {
