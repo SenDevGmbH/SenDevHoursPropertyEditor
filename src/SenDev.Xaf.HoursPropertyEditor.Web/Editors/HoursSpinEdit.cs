@@ -21,7 +21,7 @@ namespace SenDev.Xaf.HoursPropertyEditor.Web.Editors
             get => base.Value;
             set
             {
-                base.Value = Convert.ToDouble(value, CultureInfo.InvariantCulture);
+                base.Value = Convert.ToDouble(value, CultureInfo.CurrentCulture);
             }
         }
         public override void RegisterEditorIncludeScripts()
